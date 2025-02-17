@@ -247,4 +247,48 @@ nav {
 
 .page-footer {
     background-color: #fff;
+    padding: 20px 0;
+    height: auto;
+}
+
+.page-footer .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page-footer .col-6 {
+    align-items: center;
+}
+
+.page-footer i {
+    font-size: 24px;
+    background: #000;
+    width: 48px;
+    height: 48px;
+    line-height: 48px !important;
+    color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.page-footer ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.page-footer ul>li {
+    font-size: 0;
+    margin-right: 20px;
+    padding: 0;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+}
+
+.page-footer p {
+    margin-left: 30px;
 }
