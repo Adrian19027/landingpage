@@ -253,11 +253,8 @@ nav {
 
 .page-footer .row {
     display: flex;
-    justify-content: space-evenly;
-}
-
-.page-footer .col-6 {
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .page-footer i {
@@ -276,7 +273,6 @@ nav {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    justify-content: center;
 }
 
 .page-footer ul>li {
